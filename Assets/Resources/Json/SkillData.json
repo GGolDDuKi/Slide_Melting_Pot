@@ -1,0 +1,578 @@
+{
+  "1001": {
+    "skillClass": "Player",
+    "skillName": "PlayerAtkSp1",
+    "skillUser": "player",
+    "skillInfo": "아군 유닛의 공격속도 + 10%",
+    "skillEffect": 0.1,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1002": {
+    "skillClass": "Player",
+    "skillName": "PlayerAtkSp2",
+    "skillUser": "player",
+    "skillInfo": "아군 유닛의 공격속도 + 15%",
+    "skillEffect": 0.15,
+    "rarity": "Rare",
+    "overlap": 1
+  },
+  "1003": {
+    "skillClass": "Player",
+    "skillName": "PlayerAtkSp3",
+    "skillUser": "player",
+    "skillInfo": "아군 유닛의 공격속도 + 20%",
+    "skillEffect": 0.2,
+    "rarity": "Unique",
+    "overlap": 1
+  },
+  "1004": {
+    "skillClass": "Player",
+    "skillName": "PlayerAtkDmg1",
+    "skillUser": "player",
+    "skillInfo": "아군 유닛의 데미지 + 10%",
+    "skillEffect": 0.1,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1005": {
+    "skillClass": "Player",
+    "skillName": "PlayerAtkDmg2",
+    "skillUser": "player",
+    "skillInfo": "아군 유닛의 데미지 + 15%",
+    "skillEffect": 0.15,
+    "rarity": "Rare",
+    "overlap": 1
+  },
+  "1006": {
+    "skillClass": "Player",
+    "skillName": "PlayerAtkDmg3",
+    "skillUser": "player",
+    "skillInfo": "아군 유닛의 데미지 + 20%",
+    "skillEffect": 0.2,
+    "rarity": "Unique",
+    "overlap": 1
+  },
+  "1007": {
+    "skillClass": "Player",
+    "skillName": "PlayerMovePoint1",
+    "skillUser": "player",
+    "skillInfo": "플레이어 이동 카운트 + 5",
+    "skillEffect": 5,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1008": {
+    "skillClass": "Player",
+    "skillName": "PlayerMovePoint2",
+    "skillUser": "player",
+    "skillInfo": "플레이어 이동 카운트 + 10",
+    "skillEffect": 10,
+    "rarity": "Rare",
+    "overlap": 1
+  },
+  "1009": {
+    "skillClass": "Player",
+    "skillName": "PlayerMovePoint3",
+    "skillUser": "player",
+    "skillInfo": "플레이어 이동 카운트 + 15",
+    "skillEffect": 15,
+    "rarity": "Unique",
+    "overlap": 1
+  },
+  "1010": {
+    "skillClass": "Player",
+    "skillName": "UtilSlow",
+    "skillUser": "player",
+    "skillInfo": "적 몬스터 이동속도 -15%",
+    "skillEffect": -0.15,
+    "rarity": "Unique",
+    "overlap": 1
+  },
+  "1011": {
+    "skillClass": "Player",
+    "skillName": "UtilExp",
+    "skillUser": "player",
+    "skillInfo": "적 처치 경험치 +5%",
+    "skillEffect": 0.05,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1012": {
+    "skillClass": "Player",
+    "skillName": "UtilHeal",
+    "skillUser": "player",
+    "skillInfo": "체력 회복 + 300",
+    "skillEffect": 300,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1013": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireN1_1",
+    "skillUser": "불고미",
+    "skillInfo": "불고미의 공격이 몬스터를 적중하면 5초 동안 20% 만큼 데미지를 입히는 점화 상태로 만듭니다.",
+    "skillEffect": 0.2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1014": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireN1_2",
+    "skillUser": "불고미",
+    "skillInfo": "불고미의 데미지 +15%",
+    "skillEffect": 0.15,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1015": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireN1_3",
+    "skillUser": "불고미",
+    "skillInfo": "불고미가 난기류 상태인 몬스터를 공격하면 5초 동안 공격속도 +200%",
+    "skillEffect": 2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1016": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireN1_4",
+    "skillUser": "불고미",
+    "skillInfo": "불고미의 공격 횟수 + 1",
+    "skillEffect": 1,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1017": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireR1_1",
+    "skillUser": "소토박",
+    "skillInfo": "소토박의 공격이 몬스터를 5초동안 점화 상태로 만들고, 200%의 데미지를 주는 용암 장판으로 변경됩니다.",
+    "skillEffect": 2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1018": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireR1_2",
+    "skillUser": "소토박",
+    "skillInfo": "소토박의 용암장판의 점화 데미지 +20%",
+    "skillEffect": 0.2,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1019": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireR1_3",
+    "skillUser": "소토박",
+    "skillInfo": "소토박의 공격이 덩쿨, 석화 상태인 몬스터에게 주는 데미지 +300%",
+    "skillEffect": 3,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1020": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireR1_4",
+    "skillUser": "소토박",
+    "skillInfo": "소토박의 용암장판 개수 +2, 소토박의 용암장판이 몬스터를 화상상태로 만듭니다.",
+    "skillEffect": 2,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1021": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireU1_1",
+    "skillUser": "불여우",
+    "skillInfo": "불여우가 공격이 몬스터를 적중하면 20% 확률로 자동으로 추적하는 여우불 2개를 던지고 각각 200% 데미지를 입힙니다.",
+    "skillEffect": 2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1022": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireU1_2",
+    "skillUser": "불여우",
+    "skillInfo": "불여우의 여우불 + 1",
+    "skillEffect": 1,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1023": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireU1_3",
+    "skillUser": "불여우",
+    "skillInfo": "불여우의 여우불이 몬스터를 적중하면 폭발을 일으키며 맞은 적과 근처 적에게 300%의 데미지를 줍니다.",
+    "skillEffect": 3,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1024": {
+    "skillClass": "Unit",
+    "skillName": "UnitFireU1_4",
+    "skillUser": "불여우",
+    "skillInfo": "불여우가 중독 상태인 몬스터에게 주는 데미지 + 200%",
+    "skillEffect": 2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1025": {
+    "skillClass": "Unit",
+    "skillName": "UnitWaterR1_1",
+    "skillUser": "우무꾸미",
+    "skillInfo": "우무꾸미의 거품광선이 20% 확률로 축축함 상태로 만들고 3초 동안 50% 느려지게 만듭니다.",
+    "skillEffect": 0.2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1026": {
+    "skillClass": "Unit",
+    "skillName": "UnitWaterR1_2",
+    "skillUser": "우무꾸미",
+    "skillInfo": "우무꾸미의 공격속도 +10%",
+    "skillEffect": 0.1,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1027": {
+    "skillClass": "Unit",
+    "skillName": "UnitWaterR1_3",
+    "skillUser": "우무꾸미",
+    "skillInfo": "우무꾸미가 거품광선을 2번 발사합니다.",
+    "skillEffect": 2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1028": {
+    "skillClass": "Unit",
+    "skillName": "UnitWaterR1_4",
+    "skillUser": "우무꾸미",
+    "skillInfo": "우무꾸미가 점화상태의 몬스터를 공격하면, 15% 확률로 적에게 증기 폭발이 발생하며, 대상과 주변 몬스터에게 200% 데미지를 줍니다.",
+    "skillEffect": 200,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1029": {
+    "skillClass": "Unit",
+    "skillName": "UnitWaterU1_1",
+    "skillUser": "하부기",
+    "skillInfo": "하부기의 공격이 20% 확률로 얼음창을 던집니다. 얼음창에 맞은 적은 잠깐 얼어붙고, 5초 동안 빙결상태가 됩니다.",
+    "skillEffect": 0.2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1030": {
+    "skillClass": "Unit",
+    "skillName": "UnitWaterU1_2",
+    "skillUser": "하부기",
+    "skillInfo": "하부기이 공격속도 + 15%",
+    "skillEffect": 0.15,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1031": {
+    "skillClass": "Unit",
+    "skillName": "UnitWaterU1_3",
+    "skillUser": "하부기",
+    "skillInfo": "하부기의 얼음창이 몬스터를 빙결상태로 만들 확률 +30%",
+    "skillEffect": 0.3,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1032": {
+    "skillClass": "Unit",
+    "skillName": "UnitWaterU1_4",
+    "skillUser": "하부기",
+    "skillInfo": "하부기의 얼음창이 적을 빙결상태로 만들 때, 주변 몬스터도 함께 빙결 상태가 됩니다.",
+    "skillEffect": 1,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1033": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassN1_1",
+    "skillUser": "재카로프",
+    "skillInfo": "재카로프의 공격이 몬스터를 적중하면 5초 동안 '중독'상태가 되며 20% 만큼 지속 데미지를 입힙니다.",
+    "skillEffect": 0.2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1034": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassN1_2",
+    "skillUser": "재카로프",
+    "skillInfo": "재카로프의 공격속도 + 15%",
+    "skillEffect": 0.15,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1035": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassN1_3",
+    "skillUser": "재카로프",
+    "skillInfo": "재카로프가 공격할 때, 무작위 방향으로 나뭇잎 칼날 3개를 날립니다.",
+    "skillEffect": 3,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1036": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassN1_4",
+    "skillUser": "재카로프",
+    "skillInfo": "재카로프 나뭇잎 칼날의 투사체 이동 거리 + 0.5칸",
+    "skillEffect": 0.5,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1037": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassR1_1",
+    "skillUser": "무궁아리",
+    "skillInfo": "무궁아리가 몬스터에게 수많은 씨앗 미사일을 발사하여 총 500% 데미지를 입힙니다. 전부 발사하면, 3초 동안 힘을 모아 다시 발사할 수 있습니다.",
+    "skillEffect": 5,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1038": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassR1_2",
+    "skillUser": "무궁아리",
+    "skillInfo": "무궁아리의 공격속도 +15%",
+    "skillEffect": 1.5,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1039": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassR1_3",
+    "skillUser": "무궁아리",
+    "skillInfo": "무궁아리가 감전 상태인 몬스터에게 주는 데미지 +200%",
+    "skillEffect": 2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1040": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassR1_4",
+    "skillUser": "무궁아리",
+    "skillInfo": "무궁아리의 공격이 몬스터 1마리를 관통합니다.",
+    "skillEffect": 1,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1041": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassU1_1",
+    "skillUser": "멜리아스",
+    "skillInfo": "멜리아스의 공격이 15% 확률로 맞은 몬스터를 잠깐 속박시키는 덩쿨 상태로 만듭니다.",
+    "skillEffect": 0.15,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1042": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassU1_2",
+    "skillUser": "멜리아스",
+    "skillInfo": "멜리아스의 공격속도 +15%",
+    "skillEffect": 0.15,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1043": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassU1_3",
+    "skillUser": "멜리아스",
+    "skillInfo": "멜리아스의 공격으로 몬스터가 덩쿨 상태가 되면 20% 확률로 주위 몬스터를 모두 덩쿨 상태로 만들고 200% 데미지를 줍니다.",
+    "skillEffect": 0.2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1044": {
+    "skillClass": "Unit",
+    "skillName": "UnitGrassU1_4",
+    "skillUser": "멜리아스",
+    "skillInfo": "멜리아스의 공격이 2번 발동합니다.",
+    "skillEffect": 2,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1045": {
+    "skillClass": "Unit",
+    "skillName": "UnitStormR1_1",
+    "skillUser": "전구르미",
+    "skillInfo": "전구르미의 공격이 20% 확률로 몬스터를 감전상태로 만듭니다.",
+    "skillEffect": 0.2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1046": {
+    "skillClass": "Unit",
+    "skillName": "UnitStormR1_2",
+    "skillUser": "전구르미",
+    "skillInfo": "전구르미의 공격속도 +15%",
+    "skillEffect": 0.15,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1047": {
+    "skillClass": "Unit",
+    "skillName": "UnitStormR1_3",
+    "skillUser": "전구르미",
+    "skillInfo": "전구르미의 공격이 최대 3개의 전기를 발사합니다.",
+    "skillEffect": 3,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1048": {
+    "skillClass": "Unit",
+    "skillName": "UnitStormR1_4",
+    "skillUser": "전구르미",
+    "skillInfo": "전구르미의 공격이 축축함 혹은 빙결 상태인 몬스터에게 맞으면 +200% 데미지를 주며, 주변 몬스터에게 한번만 전파됩니다.",
+    "skillEffect": 2,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1049": {
+    "skillClass": "Unit",
+    "skillName": "UnitStormU1_1",
+    "skillUser": "하늘가오리",
+    "skillInfo": "하늘가오리의 공격이 양 옆에 작은 바람과 함께 공격합니다. (작은 바람 공격 데미지 75%)",
+    "skillEffect": 0.75,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1050": {
+    "skillClass": "Unit",
+    "skillName": "UnitStormU1_2",
+    "skillUser": "하늘가오리",
+    "skillInfo": "하늘가오리의 공격속도 + 15%",
+    "skillEffect": 0.15,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1051": {
+    "skillClass": "Unit",
+    "skillName": "UnitStormU1_3",
+    "skillUser": "하늘가오리",
+    "skillInfo": "하늘가오리의 공격이 25% 확률로 200% 데미지를 주는 치명타 피해를 주며, 치명타 피해를 입히면 연달아 한 번만 더 공격합니다.",
+    "skillEffect": 0.25,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1052": {
+    "skillClass": "Unit",
+    "skillName": "UnitStormU1_4",
+    "skillUser": "하늘가오리",
+    "skillInfo": "하늘가오리의 공격이 석화 상태인 몬스터에게 +200% 데미지, 부패 시간 초기화",
+    "skillEffect": 2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1053": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundN1_1",
+    "skillUser": "가시도치",
+    "skillInfo": "가시도치의 공격이 모든 방향을 공격합니다.",
+    "skillEffect": 1,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1054": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundN1_2",
+    "skillUser": "가시도치",
+    "skillInfo": "가시도치의 데미지 +15%",
+    "skillEffect": 0.15,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1055": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundN1_3",
+    "skillUser": "가시도치",
+    "skillInfo": "가시도치의 공격이 중독상태인 몬스터에게 +200% 데미지",
+    "skillEffect": 2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1056": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundN1_4",
+    "skillUser": "가시도치",
+    "skillInfo": "가시도치의 공격 크기 + 0.5블록 (공격판정 크기 증가)",
+    "skillEffect": 0.5,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1057": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundR1_1",
+    "skillUser": "스톤피온",
+    "skillInfo": "스톤피온의 공격이 몬스터를 적중하면 5초 동안 20% 데미지를 주는 부패상태로 만듭니다.",
+    "skillEffect": 0.2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1058": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundR1_2",
+    "skillUser": "스톤피온",
+    "skillInfo": "스톤피온의 공격이 튕기는 횟수 +1",
+    "skillEffect": 1,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1059": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundR1_3",
+    "skillUser": "스톤피온",
+    "skillInfo": "스톤피온의 공격이 화상 상태인 몬스터에게 주는 데미지 +200%",
+    "skillEffect": 2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1060": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundR1_4",
+    "skillUser": "스톤피온",
+    "skillInfo": "스톤피온의 부패시간 +2초",
+    "skillEffect": 2,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1061": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundU1_1",
+    "skillUser": "모래강쥐",
+    "skillInfo": "모래강쥐의 공격이 2바퀴 연달아 공격합니다.",
+    "skillEffect": 2,
+    "rarity": "Rare",
+    "overlap": 0
+  },
+  "1062": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundU1_2",
+    "skillUser": "모래강쥐",
+    "skillInfo": "모래강쥐의 공격속도 +15%",
+    "skillEffect": 0.15,
+    "rarity": "Normal",
+    "overlap": 1
+  },
+  "1063": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundU1_3",
+    "skillUser": "모래강쥐",
+    "skillInfo": "모래강쥐의 공격이 2칸으로 증가합니다.",
+    "skillEffect": 2,
+    "rarity": "Unique",
+    "overlap": 0
+  },
+  "1064": {
+    "skillClass": "Unit",
+    "skillName": "UnitGroundU1_4",
+    "skillUser": "모래강쥐",
+    "skillInfo": "모래강쥐가 덩쿨상태인, 체력이 8% 이하인 적에게 공격하면 20% 확률로 적을 즉시 처치합니다.",
+    "skillEffect": 0.2,
+    "rarity": "Rare",
+    "overlap": 0
+  }
+}

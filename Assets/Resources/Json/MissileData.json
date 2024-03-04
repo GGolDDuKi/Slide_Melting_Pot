@@ -1,0 +1,93 @@
+{
+  "0": {
+    "unitName": "불고미",
+    "sizeX": 1,
+    "sizeY": 1,
+    "attackType": "Pass",
+    "speed": 3
+  },
+  "1": {
+    "unitName": "소토박",
+    "sizeX": 1,
+    "sizeY": 1,
+    "attackType": "None",
+    "speed": 1
+  },
+  "2": {
+    "unitName": "불여우",
+    "sizeX": 1,
+    "sizeY": 1,
+    "attackType": "None",
+    "speed": 2
+  },
+  "3": {
+    "unitName": "우무꾸미",
+    "sizeX": 1,
+    "sizeY": 2,
+    "attackType": "Pass",
+    "speed": 1
+  },
+  "4": {
+    "unitName": "하부기",
+    "sizeX": 1,
+    "sizeY": 1,
+    "attackType": "None",
+    "speed": 2
+  },
+  "5": {
+    "unitName": "재카로프",
+    "sizeX": 0.5,
+    "sizeY": 0.5,
+    "attackType": "Pass",
+    "speed": 2
+  },
+  "6": {
+    "unitName": "무궁아리",
+    "sizeX": 0.3,
+    "sizeY": 0.3,
+    "attackType": "None",
+    "speed": 3
+  },
+  "7": {
+    "unitName": "멜리아스",
+    "sizeX": 1,
+    "sizeY": 1,
+    "attackType": "Pass",
+    "speed": 2
+  },
+  "8": {
+    "unitName": "전구르미",
+    "sizeX": 0.7,
+    "sizeY": 0.7,
+    "attackType": "None",
+    "speed": 3
+  },
+  "9": {
+    "unitName": "하늘붕어",
+    "sizeX": 1,
+    "sizeY": 1,
+    "attackType": "Pass",
+    "speed": 1
+  },
+  "10": {
+    "unitName": "가시도치",
+    "sizeX": 3,
+    "sizeY": 1,
+    "attackType": "Pass",
+    "speed": 3
+  },
+  "11": {
+    "unitName": "스톤피온",
+    "sizeX": 1,
+    "sizeY": 1,
+    "attackType": "None",
+    "speed": 2
+  },
+  "12": {
+    "unitName": "모래강쥐",
+    "sizeX": 0.5,
+    "sizeY": 0.5,
+    "attackType": "Pass",
+    "speed": 2
+  }
+}
